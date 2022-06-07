@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="flex-grow h-screen bg-slate-50 flex flex-col">
+    <div class="flex-grow h-screen overflow-hidden bg-slate-50 flex flex-col">
       <div class="w-full h-16  flex justify-between px-8 py-2 border border-b">
         <div class="flex justify-center space-x-3">
           <div class="flex-none relative">
@@ -121,11 +121,11 @@
           </div>
         </div>
       </div>
-      <div class="h-16 flex bg-slate-50 items-center justify-start space-x-3 px-3">
+      <div class="h-16 flex bg-slate-50 items-center justify-start space-x-3 px-3 py-1">
           <button class="flex-none flex flex-col items-center justify-center cursor-pointer outline-none w-10 h-10 hover:bg-gray-200 hover:rounded-full focus:bg-gray-200 focus:rounded-full" >
             <svg class="w-5 h-5" fill="none" stroke="#a6a6a6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"></path></svg>
           </button>
-          <textarea class="flex-grow outline-none border rounded p-2 shadow-lg  focus:border-blue-600  hover:border-blue-600 w-full h-12" ></textarea>
+          <textarea  class="flex-grow outline-none border rounded p-2 shadow-lg  focus:border-blue-600  hover:border-blue-600 w-full h-12" ></textarea>
           <button class="flex-none flex flex-col items-center justify-center cursor-pointer outline-none w-10 h-10 hover:bg-gray-200 hover:rounded-full focus:bg-gray-200 focus:rounded-full" >
             <svg class="w-5 h-5" fill="none" stroke="#a6a6a6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
           </button>
