@@ -1,8 +1,13 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'
-import router from './router'
-import store from './store'
+import router from './router/index'
+import store from './store/index'
 import './index.css'
+import ShowNotif from '@/components/ShowNotif'
 
-createApp(App).use(store).use(router).mount('#app')
+const app = createApp(App)
+app.use(store)
+app.use(router)
+app.component('ShowNotif', ShowNotif)
+app.mount('#app')

@@ -1,17 +1,14 @@
 <template>
-  <ChatView />
+ <router-view></router-view>
 </template>
 
 <script>
-// @ is an alias to /src
-import ChatView from '@/views/ChatView.vue'
 
 export default {
   name: 'App',
-  components: {
-    ChatView
-  }
+  components: {}
 }
+
 </script>
 
 <style>
